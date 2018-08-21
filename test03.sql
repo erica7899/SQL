@@ -9,3 +9,5 @@ from(select * from emp order by sal desc);
 select rownum,ename,sal
 from(select * from emp order by sal desc)
 where rownum<4;
+/*두번째는 sal을 기준으로 정렬을 한 후 rownum을 부여한다.*/
+/*두번째는 sal을 기준으로 정렬을 한 후 rownum을 부여한다.*/
